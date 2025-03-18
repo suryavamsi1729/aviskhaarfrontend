@@ -43,27 +43,7 @@ const Complaints = () => {
       date: new Date(),
       location: "Pine Street Crossing",
       priority: "medium",
-    },
-    {
-      id: 5,
-      title: "Crosswalk Paint Fading",
-      description:
-        "The crosswalk markings at Pine Street intersection are severely faded and barely visible. Pedestrians are at risk.",
-      status: "pending",
-      date: new Date(),
-      location: "Pine Street Crossing",
-      priority: "medium",
-    },
-    {
-      id: 6,
-      title: "Crosswalk Paint Fading",
-      description:
-        "The crosswalk markings at Pine Street intersection are severely faded and barely visible. Pedestrians are at risk.",
-      status: "pending",
-      date: new Date(),
-      location: "Pine Street Crossing",
-      priority: "medium",
-    },
+    }
   ]);
   const [selectedComplaint, setSelectedComplaint] = useState(null);
 
